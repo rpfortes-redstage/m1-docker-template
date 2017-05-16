@@ -10,7 +10,7 @@ services:
     links:
       - db
     volumes:
-      - /var/www/html:/var/www/html
+      - ./magento:/var/www/html
       - ~/.composer:/root/.composer
       - ~/.npm:/root/.npm
       - ~/.nvm:/root/.nvm
